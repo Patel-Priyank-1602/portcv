@@ -9,6 +9,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import ParticlesBackground from "@/components/particles-background"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 text-white">
@@ -30,7 +31,7 @@ export default function Home() {
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 animate-gradient">
-                Priyank
+                Priyank D Patel
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-2xl text-slate-300">Full-Stack Developer & UI/UX Enthusiast</p>
@@ -38,12 +39,14 @@ export default function Home() {
               Crafting digital experiences that blend creativity with functionality
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 animate-pulse-slow"
-              >
-                View My Work <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href="components/project-card">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 animate-pulse-slow"
+                >
+                  View My Work <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
               <Button
                 size="lg"
                 variant="outline"

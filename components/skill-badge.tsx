@@ -13,7 +13,7 @@ import {
   SiPostgresql,
   SiGit,
   SiDocker,
-  SiAmazonaws,
+  SiAmazon,
   SiFigma,
   SiGraphql,
 } from "react-icons/si"
@@ -50,7 +50,7 @@ export default function SkillBadge({ name, level, icon }: SkillBadgeProps) {
       case "docker":
         return <SiDocker className="h-8 w-8 mb-3 text-blue-500" />
       case "aws":
-        return <SiAmazonaws className="h-8 w-8 mb-3 text-yellow-500" />
+        return <SiAmazon className="h-8 w-8 mb-3 text-yellow-500" />
       case "figma":
         return <SiFigma className="h-8 w-8 mb-3 text-purple-400" />
       case "graphql":
