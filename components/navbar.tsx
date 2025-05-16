@@ -49,9 +49,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-slate-900/90 backdrop-blur-md shadow-lg" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-slate-900/90 backdrop-blur-md shadow-lg" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
@@ -75,11 +74,10 @@ export default function Navbar() {
               >
                 <Link
                   href={item.href}
-                  className={`px-4 py-2 rounded-md transition-colors ${
-                    activeSection === item.href.substring(1)
+                  className={`px-4 py-2 rounded-md transition-colors ${activeSection === item.href.substring(1)
                       ? "text-white bg-slate-800"
                       : "text-slate-300 hover:text-white hover:bg-slate-800/50"
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>
@@ -88,9 +86,11 @@ export default function Navbar() {
           </nav>
 
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
-            <Button className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
-              <Download className="mr-2 h-4 w-4" /> Resume
-            </Button>
+            <Link href="/resume.pdf" download>
+              <Button className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
+                <Download className="mr-2 h-4 w-4" /> Resume
+              </Button>
+            </Link>
           </motion.div>
 
           {/* Mobile Menu Button */}
@@ -126,11 +126,10 @@ export default function Navbar() {
                   >
                     <Link
                       href={item.href}
-                      className={`block px-4 py-2 rounded-md transition-colors ${
-                        activeSection === item.href.substring(1)
+                      className={`block px-4 py-2 rounded-md transition-colors ${activeSection === item.href.substring(1)
                           ? "text-white bg-slate-800"
                           : "text-slate-300 hover:text-white hover:bg-slate-800/50"
-                      }`}
+                        }`}
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.name}

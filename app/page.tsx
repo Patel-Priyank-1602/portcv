@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ChevronDown, Download, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { ArrowRight, ChevronDown, Download, Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/project-card"
 import SkillBadge from "@/components/skill-badge"
@@ -34,7 +34,7 @@ export default function Home() {
                 Priyank Patel
               </span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-2xl text-slate-300">Learner & Student</p>
+            <p className="text-xl md:text-2xl mb-8 max-w-2xl text-slate-300">Web & GUI Developer</p>
             <p className="text-lg md:text-xl mb-12 max-w-2xl text-slate-400">
               Transforming ideas into innovative technology
             </p>
@@ -47,13 +47,15 @@ export default function Home() {
                   View My Work <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-cyan-500/50 transition-all duration-300"
-              >
-                Download Resume <Download className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href="/resume.pdf" download>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-cyan-500/50 transition-all duration-300"
+                >
+                  Download Resume <Download className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </div>
           {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
@@ -74,7 +76,7 @@ export default function Home() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                 <Avatar className="w-64 h-64 border-4 border-slate-800 relative">
-                  <AvatarImage src="/images/profile.jpg" alt="Profile" />
+                  <AvatarImage src="Priyank.jpg" alt="Profile" />
                   <AvatarFallback className="bg-slate-800 text-4xl">P</AvatarFallback>
                 </Avatar>
               </div>
@@ -84,23 +86,23 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-slate-300 mb-6">
-                I'm a passionate full-stack developer with expertise in creating responsive, user-friendly web
-                applications. With a strong foundation in both front-end and back-end technologies, I bring ideas to
-                life through clean, efficient code and intuitive design.
+                Passionate and innovative learner with expertise in Java Swing and HTML. Experienced in building frontend websites using HTML & CSS, with AI-generated JavaScript. Enthusiastic about developing projects and exploring Computer Hardware, AI, Industry 4.0, and Prompt Engineering.
               </p>
               <p className="text-lg text-slate-300 mb-8">
-                My journey in tech began with a curiosity about how digital experiences are built, and has evolved into
-                a career focused on crafting solutions that make a difference. I'm constantly learning and exploring new
-                technologies to stay at the forefront of web development.
+                Proficient in HTML & CSS for creating responsive, visually appealing web interfaces.
+                Skilled in Java Swing for building interactive GUI-based desktop applications.
+                Experienced in Python Flask for backend development and MySQL for efficient data management.
               </p>
               <div className="flex gap-4">
-                <Button
+                <Link href="https://github.com/Patel-Priyank-1602" target="_blank"><Button
                   variant="ghost"
                   size="icon"
                   className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
                 >
                   <Github className="h-5 w-5" />
                 </Button>
+                </Link>
+                <Link href="https://www.linkedin.com/in/patel-priyank-945131288/" target="_blank">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -108,6 +110,8 @@ export default function Home() {
                 >
                   <Linkedin className="h-5 w-5" />
                 </Button>
+                </Link>
+                <Link href="https://twitter.com/Priyank_P16" target="_blank">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -115,13 +119,16 @@ export default function Home() {
                 >
                   <Twitter className="h-5 w-5" />
                 </Button>
+                </Link>
+                <Link href="https://www.instagram.com/patelpriyank.d/" target="_blank">
                 <Button
                   variant="ghost"
                   size="icon"
                   className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
                 >
-                  <Mail className="h-5 w-5" />
+                  <Instagram className="h-5 w-5" />
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
