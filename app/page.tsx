@@ -31,15 +31,15 @@ export default function Home() {
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 animate-gradient">
-                Priyank D Patel
+                Priyank Patel
               </span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-2xl text-slate-300">Full-Stack Developer & UI/UX Enthusiast</p>
+            <p className="text-xl md:text-2xl mb-8 max-w-2xl text-slate-300">Learner & Student</p>
             <p className="text-lg md:text-xl mb-12 max-w-2xl text-slate-400">
-              Crafting digital experiences that blend creativity with functionality
+              Transforming ideas into innovative technology
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="components/project-card">
+              <Link href="#projects">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 animate-pulse-slow"
@@ -56,9 +56,9 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+          {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
             <ChevronDown className="h-8 w-8 text-slate-400" />
-          </div>
+          </div> */}
         </div>
       </section>
 
