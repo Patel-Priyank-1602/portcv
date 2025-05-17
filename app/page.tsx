@@ -391,60 +391,64 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <HobbyCard
-              title="Photography"
-              description="Capturing landscapes and urban scenes through my lens. I particularly enjoy night photography and long exposures."
-              icon="camera"
-              imageUrl="/images/hobby-photography.jpg"
+              title="Drawing"
+              description="Sketching portraits, urban scenes, and imaginative visuals."
+              icon="drawing"
+              imageUrl=""
               color="from-cyan-500 to-blue-600"
+              websiteUrl="https://drawing-p.netlify.app/"
             />
+
             <HobbyCard
-              title="Hiking"
-              description="Exploring mountain trails and discovering breathtaking views. I've hiked in over 15 national parks across the country."
-              icon="mountain"
-              imageUrl="/images/hobby-hiking.jpg"
+              title="Film - Review"
+              description="Analyzing films, directors, genres, and storytelling techniques."
+              icon="film"
+              imageUrl=""
               color="from-green-500 to-emerald-600"
+              websiteUrl="https://film-p.netlify.app/"
             />
+
             <HobbyCard
-              title="Reading"
-              description="Diving into science fiction, philosophy, and technical books. I read about 30 books per year and maintain a digital book club."
-              icon="book-open"
-              imageUrl="/images/hobby-reading.jpg"
+              title="Blog"
+              description="Writing articles on tech, AI, and creative media."
+              icon="blogging"
+              imageUrl=""
               color="from-amber-500 to-orange-600"
+              websiteUrl="https://blogai-p.netlify.app/"
             />
+
             <HobbyCard
-              title="Chess"
-              description="Strategic thinking and planning several moves ahead. I participate in local tournaments and online competitions."
-              icon="chess-knight"
-              imageUrl="/images/hobby-chess.jpg"
+              title="Gov Rules 2024-25"
+              description="Simplifying Indian government rules, schemes, and regulations."
+              icon="indian rule"
+              imageUrl=""
               color="from-purple-500 to-violet-600"
+              websiteUrl="https://patel-priyank-1602.github.io/Indian-Rules/"
             />
+
             <HobbyCard
-              title="Cooking"
-              description="Experimenting with international cuisines and perfecting recipes. I specialize in Italian and Asian fusion dishes."
-              icon="utensils"
-              imageUrl="/images/hobby-cooking.jpg"
+              title="Music"
+              description="Listen to the Song of My Voice."
+              icon="music"
+              imageUrl=""
+              color="from-fuchsia-500 to-pink-600"
+              websiteUrl="https://song-p.netlify.app/"
+            />
+
+            <HobbyCard
+              title="Cricket"
+              description="Playing cricket, tracking scores, and analyzing matches."
+              icon="cricket"
+              imageUrl=""
               color="from-red-500 to-rose-600"
             />
+
             <HobbyCard
-              title="Music Production"
-              description="Creating electronic music and ambient soundscapes. I've released several tracks on SoundCloud and collaborate with other artists."
-              icon="music"
-              imageUrl="/images/hobby-music.jpg"
-              color="from-fuchsia-500 to-pink-600"
-            />
-            <HobbyCard
-              title="3D Printing"
-              description="Designing and printing functional objects and artistic pieces. I've built my own custom 3D printer and contribute to open-source designs."
-              icon="cube"
-              imageUrl="/images/hobby-3dprinting.jpg"
-              color="from-blue-500 to-indigo-600"
-            />
-            <HobbyCard
-              title="Gardening"
-              description="Growing vegetables and maintaining a small indoor plant collection. I'm particularly interested in sustainable urban gardening."
-              icon="flower"
-              imageUrl="/images/hobby-gardening.jpg"
-              color="from-emerald-500 to-green-600"
+              title="Gaming"
+              description="Playing strategic and competitive games."
+              icon="gaming"
+              imageUrl=""
+              color="from-yellow-500 to-green-600"
             />
           </div>
         </div>
@@ -473,7 +477,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Email</p>
-                    <p className="text-slate-300">hello@priyank.dev</p>
+                    <p className="text-slate-300">patelpriyank2526@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -482,7 +486,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">LinkedIn</p>
-                    <p className="text-slate-300">linkedin.com/in/priyank</p>
+                    <p className="text-slate-300">linkedin.com/in/patel-priyank-945131288/</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -491,7 +495,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">GitHub</p>
-                    <p className="text-slate-300">github.com/priyank</p>
+                    <p className="text-slate-300">github.com/Patel-Priyank-1602</p>
                   </div>
                 </div>
               </div>

@@ -1,22 +1,16 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { motion } from "framer-motion"
 import {
   Camera,
-  Mountain,
   BookOpen,
-  CastleIcon as ChessKnight,
-  Utensils,
   Music,
-  CuboidIcon as Cube,
-  Flower,
-  Code,
   Gamepad2,
-  Plane,
   Palette,
+  CastleIcon,
 } from "lucide-react"
+import { MdSportsCricket } from "react-icons/md"
 
 interface HobbyCardProps {
   title: string
@@ -24,37 +18,28 @@ interface HobbyCardProps {
   icon: string
   imageUrl: string
   color: string
+  websiteUrl?: string
 }
 
-export default function HobbyCard({ title, description, icon, imageUrl, color }: HobbyCardProps) {
+export default function HobbyCard({ title, description, icon, color, websiteUrl }: HobbyCardProps) {
   const [isHovered, setIsHovered] = useState(false)
 
   const getIcon = () => {
     switch (icon.toLowerCase()) {
-      case "camera":
-        return <Camera className="h-6 w-6" />
-      case "mountain":
-        return <Mountain className="h-6 w-6" />
-      case "book-open":
+      case "drawing":
+        return <Palette className="h-6 w-6" />
+      case "blogging":
         return <BookOpen className="h-6 w-6" />
-      case "chess-knight":
-        return <ChessKnight className="h-6 w-6" />
-      case "utensils":
-        return <Utensils className="h-6 w-6" />
       case "music":
         return <Music className="h-6 w-6" />
-      case "cube":
-        return <Cube className="h-6 w-6" />
-      case "flower":
-        return <Flower className="h-6 w-6" />
-      case "code":
-        return <Code className="h-6 w-6" />
-      case "gamepad":
+      case "film":
+        return <Camera className="h-6 w-6" />
+      case "indian rule":
+        return <CastleIcon className="h-6 w-6" />
+      case "cricket":
+        return <MdSportsCricket className="h-6 w-6" />
+      case "gaming":
         return <Gamepad2 className="h-6 w-6" />
-      case "plane":
-        return <Plane className="h-6 w-6" />
-      case "palette":
-        return <Palette className="h-6 w-6" />
       default:
         return <BookOpen className="h-6 w-6" />
     }
@@ -71,17 +56,6 @@ export default function HobbyCard({ title, description, icon, imageUrl, color }:
       onMouseLeave={() => setIsHovered(false)}
       className="relative group overflow-hidden rounded-xl h-64"
     >
-      <div className="absolute inset-0 z-0">
-        <Image
-          src={imageUrl || "/placeholder.svg?height=256&width=384"}
-          alt={title}
-          fill
-          className="object-cover transition-transform duration-700"
-          style={{ transform: isHovered ? "scale(1.1)" : "scale(1)" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/70 to-transparent"></div>
-      </div>
-
       <div className="relative z-10 h-full flex flex-col justify-end p-6">
         <div
           className={`w-12 h-12 rounded-full bg-gradient-to-r ${color} flex items-center justify-center mb-4 shadow-lg`}
@@ -89,7 +63,17 @@ export default function HobbyCard({ title, description, icon, imageUrl, color }:
           {getIcon()}
         </div>
         <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
-        <p className="text-slate-300 text-sm">{description}</p>
+        <p className="text-slate-300 text-sm mb-2">{description}</p> <br />
+        {websiteUrl && (
+          <a
+            href={websiteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`text-white text-sm font-medium bg-gradient-to-r ${color} px-4 py-2 rounded-full transition-transform duration-200 hover:scale-105 shadow-md flex items-center justify-center`}
+          >
+            Visit Website
+          </a>
+        )}
       </div>
 
       <div
