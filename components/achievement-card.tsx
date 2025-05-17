@@ -51,7 +51,7 @@ export default function AchievementCard({
             className="w-full border-slate-700 text-slate-300 hover:bg-slate-700 transition-all duration-300"
             onClick={() => window.open(credentialUrl, "_blank")}
           >
-            <ExternalLink className="mr-2 h-4 w-4" /> View Credential
+            <ExternalLink className="mr-2 h-4 w-4" /> View Certificate
           </Button>
         </CardContent>
       </Card>

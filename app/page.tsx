@@ -328,7 +328,7 @@ export default function Home() {
               title="Hackathon Runners Up"
               organization="ACM PDEU"
               date="2025"
-              description="Validated expertise in designing distributed systems on AWS, demonstrating knowledge of how to architect and deploy secure and robust applications."
+              description="We secured 2nd place in the PDEU ACM Hackathon by developing an online medical portal."
               imageUrl="image/ACM Hackethon.jpg"
               credentialUrl="https://drive.google.com/file/d/1gKuUG_LWcnkboS3pFD08C8xi-zt1JAX0/view?usp=drive_link"
             />
@@ -336,7 +336,7 @@ export default function Home() {
               title="Career Essentials in Generative AI by Microsoft and LinkedIn"
               organization="Microsoft & LinkedIn"
               date="2024"
-              description="Comprehensive training in user experience design, covering the design process from beginning to end including research, wireframing, prototyping, and testing."
+              description="I completed this course on the LinkedIn Learning platform, where I learned how powerful and useful generative AI is, provided by Microsoft and LinkedIn."
               imageUrl="image/CertificateOfCompletion_Career Essentials in Generative AI by Microsoft and LinkedIn.jpg"
               credentialUrl="https://drive.google.com/file/d/1OtHYy8L1X04lV9h3SdvY3_Ar24-VKPEU/view?usp=drive_link"
             />
@@ -344,25 +344,25 @@ export default function Home() {
               title="SQL Basic"
               organization="HackerRank"
               date="2025"
-              description="First place winner for developing an innovative web application that addresses accessibility challenges in online education."
+              description="I completed a test on the HackerRank platform, where I learned SQL basics and received this certificate."
               imageUrl="image/sql_basic certificate.png"
-              credentialUrl="#"
+              credentialUrl="https://drive.google.com/file/d/1Otc8SK1FuYcHkFvlaXNWjHmIg23xUi79/view?usp=sharing"
             />
             <AchievementCard
-              title="MongoDB Certified Developer"
-              organization="MongoDB University"
-              date="2021"
-              description="Certified in building applications using MongoDB, including data modeling, querying, indexing, and aggregation framework."
+              title="Dev-O-Lution"
+              organization="Google Developer Group"
+              date="2025"
+              description="I participated in Dev-O-Lution at the DAIICT campus, where I learned a lot from Google Developer engineers."
               imageUrl="image/Dev-o.png"
-              credentialUrl="#"
+              credentialUrl="https://drive.google.com/file/d/1mPKdzaOLiXrjK91o0nJOffVroqk90w4Y/view?usp=sharing"
             />
             <AchievementCard
-              title="React Native Specialist"
-              organization="Meta"
-              date="2021"
-              description="Advanced certification in building cross-platform mobile applications using React Native, including state management and native module integration."
+              title="Civic and Social Services Internship"
+              organization="Nirvana Foundation"
+              date="2024"
+              description="In 2024, I completed my Civic and Social Services Internship with Nirvana Foundation, participating in a one-month tree plantation campaign."
               imageUrl="image/Nirvana.png"
-              credentialUrl="#"
+              credentialUrl="https://drive.google.com/file/d/1oVllnYNHRuuqG6lVmAwISA3NGTGZSVGu/view?usp=sharing"
             />
           </div>
         </div>
