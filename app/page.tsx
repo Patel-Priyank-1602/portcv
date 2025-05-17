@@ -103,31 +103,31 @@ export default function Home() {
                 </Button>
                 </Link>
                 <Link href="https://www.linkedin.com/in/patel-priyank-945131288/" target="_blank">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
                 </Link>
                 <Link href="https://twitter.com/Priyank_P16" target="_blank">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
-                >
-                  <Twitter className="h-5 w-5" />
-                </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
+                  >
+                    <Twitter className="h-5 w-5" />
+                  </Button>
                 </Link>
                 <Link href="https://www.instagram.com/patelpriyank.d/" target="_blank">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
-                >
-                  <Instagram className="h-5 w-5" />
-                </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full bg-slate-800 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
+                  >
+                    <Instagram className="h-5 w-5" />
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -293,24 +293,22 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            <SkillBadge name="JavaScript" level={90} icon="js" />
-            <SkillBadge name="React" level={85} icon="react" />
-            <SkillBadge name="Node.js" level={80} icon="node" />
-            <SkillBadge name="TypeScript" level={75} icon="ts" />
-            <SkillBadge name="Next.js" level={85} icon="next" />
-            <SkillBadge name="HTML/CSS" level={95} icon="html" />
-            <SkillBadge name="Tailwind CSS" level={90} icon="tailwind" />
-            <SkillBadge name="MongoDB" level={70} icon="mongodb" />
-            <SkillBadge name="PostgreSQL" level={65} icon="postgres" />
-            <SkillBadge name="Git" level={85} icon="git" />
-            <SkillBadge name="Docker" level={60} icon="docker" />
-            <SkillBadge name="AWS" level={55} icon="aws" />
-            <SkillBadge name="UI/UX Design" level={75} icon="figma" />
-            <SkillBadge name="Figma" level={70} icon="figma" />
-            <SkillBadge name="GraphQL" level={65} icon="graphql" />
+            <SkillBadge name="HTML" icon="html" />
+            <SkillBadge name="CSS" icon="css" />
+            <SkillBadge name="C" icon="c" />
+            <SkillBadge name="Python" icon="python" />
+            <SkillBadge name="MySQL" icon="mysql" />
+            <SkillBadge name="Java" icon="java" />
+            <SkillBadge name="Git" icon="git" />
+            <SkillBadge name="GitHub" icon="github" />
+            <SkillBadge name="Data Structures" icon="data structures" />
+            <SkillBadge name="VS Code" icon="vscode" />
+            <SkillBadge name="Power BI" icon="powerbi" />
+            <SkillBadge name="Video Editing" icon="video editing" />
           </div>
         </div>
       </section>
+
 
       {/* Achievements Section */}
       <section id="achievements" className="py-20 bg-slate-950 relative overflow-hidden">
