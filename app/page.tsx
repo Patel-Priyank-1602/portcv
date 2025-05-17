@@ -325,27 +325,27 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <AchievementCard
-              title="AWS Certified Solutions Architect"
-              organization="Amazon Web Services"
-              date="2023"
+              title="Hackathon Runners Up"
+              organization="ACM PDEU"
+              date="2025"
               description="Validated expertise in designing distributed systems on AWS, demonstrating knowledge of how to architect and deploy secure and robust applications."
-              imageUrl="/images/achievement1.jpg"
-              credentialUrl="#"
+              imageUrl="image/ACM Hackethon.jpg"
+              credentialUrl="https://drive.google.com/file/d/1gKuUG_LWcnkboS3pFD08C8xi-zt1JAX0/view?usp=drive_link"
             />
             <AchievementCard
-              title="Google UX Design Professional Certificate"
-              organization="Google"
-              date="2022"
+              title="Career Essentials in Generative AI by Microsoft and LinkedIn"
+              organization="Microsoft & LinkedIn"
+              date="2024"
               description="Comprehensive training in user experience design, covering the design process from beginning to end including research, wireframing, prototyping, and testing."
-              imageUrl="/images/achievement2.jpg"
-              credentialUrl="#"
+              imageUrl="image/CertificateOfCompletion_Career Essentials in Generative AI by Microsoft and LinkedIn.jpg"
+              credentialUrl="https://drive.google.com/file/d/1OtHYy8L1X04lV9h3SdvY3_Ar24-VKPEU/view?usp=drive_link"
             />
             <AchievementCard
-              title="Hackathon Winner - Best Web Application"
-              organization="TechCrunch Disrupt"
-              date="2022"
+              title="SQL Basic"
+              organization="HackerRank"
+              date="2025"
               description="First place winner for developing an innovative web application that addresses accessibility challenges in online education."
-              imageUrl="/images/achievement3.jpg"
+              imageUrl="image/sql_basic certificate.png"
               credentialUrl="#"
             />
             <AchievementCard
@@ -353,7 +353,7 @@ export default function Home() {
               organization="MongoDB University"
               date="2021"
               description="Certified in building applications using MongoDB, including data modeling, querying, indexing, and aggregation framework."
-              imageUrl="/images/achievement4.jpg"
+              imageUrl="image/Dev-o.png"
               credentialUrl="#"
             />
             <AchievementCard
@@ -361,15 +361,7 @@ export default function Home() {
               organization="Meta"
               date="2021"
               description="Advanced certification in building cross-platform mobile applications using React Native, including state management and native module integration."
-              imageUrl="/images/achievement5.jpg"
-              credentialUrl="#"
-            />
-            <AchievementCard
-              title="Open Source Contributor Award"
-              organization="GitHub"
-              date="2020"
-              description="Recognized for significant contributions to open source projects, particularly in the JavaScript ecosystem."
-              imageUrl="/images/achievement6.jpg"
+              imageUrl="image/Nirvana.png"
               credentialUrl="#"
             />
           </div>
