@@ -12,8 +12,8 @@ interface ProjectCardProps {
   description: string
   tags: string[]
   imageUrl: string
-  demoUrl: string
-  codeUrl: string
+  demoUrl?: string // Made optional to handle missing URLs
+  codeUrl?: string // Made optional to handle missing URLs
   featured?: boolean
 }
 
@@ -72,19 +72,46 @@ export default function ProjectCard({
           </div>
         </CardContent>
         <CardFooter className="px-6 pb-6 pt-0 flex justify-between">
-          <Button
-            variant="outline"
-            size="sm"
-            className="border-slate-700 text-slate-300 hover:bg-slate-700 transition-all duration-300"
-          >
-            <Github className="mr-2 h-4 w-4" /> Code
-          </Button>
-          <Button
-            size="sm"
-            className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700"
-          >
-            <ExternalLink className="mr-2 h-4 w-4" /> Demo
-          </Button>
+          {codeUrl ? (
+            <Button
+              asChild
+              variant="outline"
+              size="sm"
+              className="border-slate-700 text-slate-300 hover:bg-slate-700 transition-all duration-300"
+            >
+              <a href={codeUrl} target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" /> Code
+              </a>
+            </Button>
+          ) : (
+            <Button
+              variant="outline"
+              size="sm"
+              className="border-slate-700 text-slate-500 cursor-not-allowed"
+              disabled
+            >
+              <Github className="mr-2 h-4 w-4" /> Code
+            </Button>
+          )}
+          {demoUrl ? (
+            <Button
+              asChild
+              size="sm"
+              className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700"
+            >
+              <a href={demoUrl} target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="mr-2 h-4 w-4" /> Demo
+              </a>
+            </Button>
+          ) : (
+            <Button
+              size="sm"
+              className="bg-gradient-to-r from-cyan-500 to-purple-600 opacity-50 cursor-not-allowed"
+              disabled
+            >
+              <ExternalLink className="mr-2 h-4 w-4" /> Demo
+            </Button>
+          )}
         </CardFooter>
       </Card>
     </motion.div>

@@ -145,7 +145,7 @@ export default function Home() {
             Featured Projects
           </h2>
           <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
-            A selection of my recent work, showcasing my skills and expertise in web development
+            A selection of My Recent work, showcasing my skills and expertise in Web & GUI development
           </p>
 
           <Tabs defaultValue="all" className="w-full mb-12">
@@ -156,61 +156,63 @@ export default function Home() {
               <TabsTrigger value="web" className="data-[state=active]:bg-gradient-to-r from-cyan-500 to-purple-600">
                 Web
               </TabsTrigger>
-              <TabsTrigger value="mobile" className="data-[state=active]:bg-gradient-to-r from-cyan-500 to-purple-600">
-                Mobile
+              <TabsTrigger value="gui" className="data-[state=active]:bg-gradient-to-r from-cyan-500 to-purple-600">
+                GUI
               </TabsTrigger>
             </TabsList>
 
             <TabsContent value="all" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
-                  title="E-Commerce Platform"
-                  description="A full-featured online store with payment integration, user authentication, and inventory management."
-                  tags={["React", "Node.js", "MongoDB", "Stripe"]}
+                  title="Online Electronic Store"
+                  description="A dynamic, secure, and user-friendly e-commerce platform designed for browsing and purchasing a wide range of electronic products with ease and confidence — fully responsive across both desktop and mobile devices."
+                  tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
                   imageUrl="/images/project1.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_smart-electronics-shopping-platform-activity-7323629487630249986-FE8W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/elec_store_ai.git"
                   featured={true}
                 />
                 <ProjectCard
-                  title="Task Management App"
-                  description="A productivity application with drag-and-drop interface, team collaboration features, and real-time updates."
-                  tags={["Vue.js", "Firebase", "Tailwind CSS"]}
+                  title="CGPA Calculator"
+                  description="Java-based CGPA Calculator designed specifically for 3rd-semester engineering students at PDEU.."
+                  tags={["Java", "Java Swing"]}
                   imageUrl="/images/project2.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-programming-engineering-activity-7265681809449885699-zRXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/PDEU-3rd-SEM-CGPA-Calculator-.git"
+                  featured={true}
+                />
+                <ProjectCard
+                  title="WebSync"
+                  description="For a long time, I struggled with organizing bookmarks—scrolling through endless links, clicking Show All, and searching manually felt tedious. So, I built WebSync, a fully customizable website manager!"
+                  tags={["HTML", "CSS", "JS"]}
+                  imageUrl="/images/project4.jpg"
+                  demoUrl="https://patel-priyank-1602.github.io/WebSyncP-/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/WebSyncP-.git"
+                  featured={true}
                 />
                 <ProjectCard
                   title="Portfolio Website"
                   description="A responsive portfolio website with smooth animations, dark mode, and contact form integration."
-                  tags={["Next.js", "Framer Motion", "Vercel"]}
+                  tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
                   imageUrl="/images/project3.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://priyank-patel-d.netlify.app/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/portcv.git"
                 />
                 <ProjectCard
-                  title="AI Image Generator"
-                  description="Web application that uses AI to generate custom images based on text prompts."
-                  tags={["React", "OpenAI API", "Node.js"]}
-                  imageUrl="/images/project4.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
-                />
-                <ProjectCard
-                  title="Crypto Dashboard"
-                  description="Real-time cryptocurrency tracking dashboard with price alerts and portfolio management."
-                  tags={["React", "Chart.js", "CoinGecko API"]}
-                  imageUrl="/images/project5.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
-                />
-                <ProjectCard
-                  title="Social Media Platform"
-                  description="Feature-rich social networking platform with real-time messaging and content sharing."
-                  tags={["React", "Socket.io", "MongoDB"]}
+                  title="Student Database"
+                  description="I recently created a Student Management System that includes both frontend and backend functionality! Even though I currently know only HTML, CSS, and MySQL."
+                  tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
                   imageUrl="/images/project6.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_webdevelopment-ai-chatgpt-activity-7293968738276589568-1V_R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/Student_Managment.git"
+                />
+                <ProjectCard
+                  title="DialPad"
+                  description="A modern, interactive dial pad built using Java Swing."
+                  tags={["Java", "Java Swing"]}
+                  imageUrl="/images/project2.jpg"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-swing-guicoding-activity-7271541192838840320-S0tj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/DialPad-Updated.git"
                 />
               </div>
             </TabsContent>
@@ -218,64 +220,80 @@ export default function Home() {
             <TabsContent value="web" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
-                  title="E-Commerce Platform"
+                  title="Online Electronic Store"
                   description="A full-featured online store with payment integration, user authentication, and inventory management."
-                  tags={["React", "Node.js", "MongoDB", "Stripe"]}
+                  tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
                   imageUrl="/images/project1.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_smart-electronics-shopping-platform-activity-7323629487630249986-FE8W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/elec_store_ai.git"
                   featured={true}
+                />
+                <ProjectCard
+                  title="WebSync"
+                  description="Web application that uses AI to generate custom images based on text prompts."
+                  tags={["HTML", "CSS", "JS"]}
+                  imageUrl="/images/project4.jpg"
+                  demoUrl="https://patel-priyank-1602.github.io/WebSyncP-/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/WebSyncP-.git"
+                  featured={true}
+                />
+                <ProjectCard
+                  title="Student Database"
+                  description="Feature-rich social networking platform with real-time messaging and content sharing."
+                  tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
+                  imageUrl="/images/project6.jpg"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_webdevelopment-ai-chatgpt-activity-7293968738276589568-1V_R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/Student_Managment.git"
                 />
                 <ProjectCard
                   title="Portfolio Website"
                   description="A responsive portfolio website with smooth animations, dark mode, and contact form integration."
-                  tags={["Next.js", "Framer Motion", "Vercel"]}
+                  tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
                   imageUrl="/images/project3.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
-                />
-                <ProjectCard
-                  title="Crypto Dashboard"
-                  description="Real-time cryptocurrency tracking dashboard with price alerts and portfolio management."
-                  tags={["React", "Chart.js", "CoinGecko API"]}
-                  imageUrl="/images/project5.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://priyank-patel-d.netlify.app/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/portcv.git"
                 />
               </div>
             </TabsContent>
 
-            <TabsContent value="mobile" className="mt-8">
+            <TabsContent value="gui" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
-                  title="Task Management App"
+                  title="CGPA Calculator"
                   description="A productivity application with drag-and-drop interface, team collaboration features, and real-time updates."
-                  tags={["React Native", "Firebase", "Redux"]}
+                  tags={["Java", "Java Swing"]}
                   imageUrl="/images/project2.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-programming-engineering-activity-7265681809449885699-zRXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/PDEU-3rd-SEM-CGPA-Calculator-.git"
                   featured={true}
                 />
                 <ProjectCard
-                  title="Fitness Tracker"
-                  description="Mobile app for tracking workouts, nutrition, and fitness progress with personalized recommendations."
-                  tags={["React Native", "GraphQL", "HealthKit"]}
-                  imageUrl="/images/project7.jpg"
-                  demoUrl="#"
-                  codeUrl="#"
+                  title="DialPad"
+                  description="A productivity application with drag-and-drop interface, team collaboration features, and real-time updates."
+                  tags={["Java", "Java Swing"]}
+                  imageUrl="/images/project2.jpg"
+                  demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-swing-guicoding-activity-7271541192838840320-S0tj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
+                  codeUrl="https://github.com/Patel-Priyank-1602/DialPad-Updated.git"
                 />
               </div>
             </TabsContent>
           </Tabs>
 
           <div className="text-center mt-12">
-            <Button
-              variant="outline"
-              className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-cyan-500/50 transition-all duration-300"
+            <a
+              href="https://www.linkedin.com/in/patel-priyank-945131288/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              View All Projects <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+              <Button
+                variant="outline"
+                className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-cyan-500/50 transition-all duration-300"
+              >
+                View All Projects <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
+
         </div>
       </section>
 
