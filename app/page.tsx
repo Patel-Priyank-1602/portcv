@@ -167,7 +167,7 @@ export default function Home() {
                   title="Online Electronic Store"
                   description="A dynamic, secure, and user-friendly e-commerce platform designed for browsing and purchasing a wide range of electronic products with ease and confidence — fully responsive across both desktop and mobile devices."
                   tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
-                  imageUrl="/images/project1.jpg"
+                  imageUrl="image/elctronicstore_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_smart-electronics-shopping-platform-activity-7323629487630249986-FE8W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/elec_store_ai.git"
                   featured={true}
@@ -176,7 +176,7 @@ export default function Home() {
                   title="CGPA Calculator"
                   description="Java-based CGPA Calculator designed specifically for 3rd-semester engineering students at PDEU.."
                   tags={["Java", "Java Swing"]}
-                  imageUrl="/images/project2.jpg"
+                  imageUrl="image/cgpa_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-programming-engineering-activity-7265681809449885699-zRXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/PDEU-3rd-SEM-CGPA-Calculator-.git"
                   featured={true}
@@ -185,7 +185,7 @@ export default function Home() {
                   title="WebSync"
                   description="For a long time, I struggled with organizing bookmarks—scrolling through endless links, clicking Show All, and searching manually felt tedious. So, I built WebSync, a fully customizable website manager!"
                   tags={["HTML", "CSS", "JS"]}
-                  imageUrl="/images/project4.jpg"
+                  imageUrl="image/websync_l.png"
                   demoUrl="https://patel-priyank-1602.github.io/WebSyncP-/"
                   codeUrl="https://github.com/Patel-Priyank-1602/WebSyncP-.git"
                   featured={true}
@@ -194,7 +194,7 @@ export default function Home() {
                   title="Portfolio Website"
                   description="A responsive portfolio website with smooth animations, dark mode, and contact form integration."
                   tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
-                  imageUrl="/images/project3.jpg"
+                  imageUrl="image/portfolio_l.png"
                   demoUrl="https://priyank-patel-d.netlify.app/"
                   codeUrl="https://github.com/Patel-Priyank-1602/portcv.git"
                 />
@@ -202,7 +202,7 @@ export default function Home() {
                   title="Student Database"
                   description="I recently created a Student Management System that includes both frontend and backend functionality! Even though I currently know only HTML, CSS, and MySQL."
                   tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
-                  imageUrl="/images/project6.jpg"
+                  imageUrl="image/stdb_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_webdevelopment-ai-chatgpt-activity-7293968738276589568-1V_R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/Student_Managment.git"
                 />
@@ -210,7 +210,7 @@ export default function Home() {
                   title="DialPad"
                   description="A modern, interactive dial pad built using Java Swing."
                   tags={["Java", "Java Swing"]}
-                  imageUrl="/images/project2.jpg"
+                  imageUrl="image/dialpad_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-swing-guicoding-activity-7271541192838840320-S0tj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/DialPad-Updated.git"
                 />
@@ -221,27 +221,27 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
                   title="Online Electronic Store"
-                  description="A full-featured online store with payment integration, user authentication, and inventory management."
+                  description="A dynamic, secure, and user-friendly e-commerce platform designed for browsing and purchasing a wide range of electronic products with ease and confidence — fully responsive across both desktop and mobile devices."
                   tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
-                  imageUrl="/images/project1.jpg"
+                  imageUrl="image/elctronicstore_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_smart-electronics-shopping-platform-activity-7323629487630249986-FE8W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/elec_store_ai.git"
                   featured={true}
                 />
                 <ProjectCard
                   title="WebSync"
-                  description="Web application that uses AI to generate custom images based on text prompts."
+                  description="For a long time, I struggled with organizing bookmarks—scrolling through endless links, clicking Show All, and searching manually felt tedious. So, I built WebSync, a fully customizable website manager!"
                   tags={["HTML", "CSS", "JS"]}
-                  imageUrl="/images/project4.jpg"
+                  imageUrl="image/websync_l.png"
                   demoUrl="https://patel-priyank-1602.github.io/WebSyncP-/"
                   codeUrl="https://github.com/Patel-Priyank-1602/WebSyncP-.git"
                   featured={true}
                 />
                 <ProjectCard
                   title="Student Database"
-                  description="Feature-rich social networking platform with real-time messaging and content sharing."
+                  description="I recently created a Student Management System that includes both frontend and backend functionality! Even though I currently know only HTML, CSS, and MySQL."
                   tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
-                  imageUrl="/images/project6.jpg"
+                  imageUrl="image/stdb_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_webdevelopment-ai-chatgpt-activity-7293968738276589568-1V_R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/Student_Managment.git"
                 />
@@ -249,7 +249,7 @@ export default function Home() {
                   title="Portfolio Website"
                   description="A responsive portfolio website with smooth animations, dark mode, and contact form integration."
                   tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
-                  imageUrl="/images/project3.jpg"
+                  imageUrl="image/portfolio_l.png"
                   demoUrl="https://priyank-patel-d.netlify.app/"
                   codeUrl="https://github.com/Patel-Priyank-1602/portcv.git"
                 />
@@ -260,18 +260,18 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
                   title="CGPA Calculator"
-                  description="A productivity application with drag-and-drop interface, team collaboration features, and real-time updates."
+                  description="Java-based CGPA Calculator designed specifically for 3rd-semester engineering students at PDEU.."
                   tags={["Java", "Java Swing"]}
-                  imageUrl="/images/project2.jpg"
+                  imageUrl="image/cgpa_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-programming-engineering-activity-7265681809449885699-zRXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/PDEU-3rd-SEM-CGPA-Calculator-.git"
                   featured={true}
                 />
                 <ProjectCard
                   title="DialPad"
-                  description="A productivity application with drag-and-drop interface, team collaboration features, and real-time updates."
+                  description="A modern, interactive dial pad built using Java Swing."
                   tags={["Java", "Java Swing"]}
-                  imageUrl="/images/project2.jpg"
+                  imageUrl="image/dialpad_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-swing-guicoding-activity-7271541192838840320-S0tj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/DialPad-Updated.git"
                 />
@@ -481,33 +481,46 @@ export default function Home() {
             <div className="bg-slate-900 p-8 rounded-lg border border-slate-800 shadow-lg hover:shadow-cyan-500/5 transition-all duration-300 hover:border-cyan-500/20">
               <h3 className="text-xl font-semibold mb-4 text-white">Contact Information</h3>
               <div className="space-y-4">
-                <div className="flex items-center gap-4">
+                <a href="mailto:patelpriyank2526@gmail.com" className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
                     <Mail className="h-5 w-5 text-cyan-400" />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Email</p>
-                    <p className="text-slate-300">patelpriyank2526@gmail.com</p>
                   </div>
-                </div>
-                <div className="flex items-center gap-4">
+                </a>
+                <a href="https://linkedin.com/in/patel-priyank-945131288/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
                     <Linkedin className="h-5 w-5 text-cyan-400" />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">LinkedIn</p>
-                    <p className="text-slate-300">linkedin.com/in/patel-priyank-945131288/</p>
                   </div>
-                </div>
-                <div className="flex items-center gap-4">
+                </a>
+                <a href="https://github.com/Patel-Priyank-1602" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
                     <Github className="h-5 w-5 text-cyan-400" />
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">GitHub</p>
-                    <p className="text-slate-300">github.com/Patel-Priyank-1602</p>
                   </div>
-                </div>
+                </a>
+                <a href="https://www.instagram.com/patelpriyank.d/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
+                    <Instagram className="h-5 w-5 text-cyan-400" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-400">Instagram</p>
+                  </div>
+                </a>
+                <a href="https://x.com/Priyank_P16" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
+                    <Twitter className="h-5 w-5 text-cyan-400" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-400">Twitter</p>
+                  </div>
+                </a>
               </div>
             </div>
 
