@@ -58,9 +58,6 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown className="h-8 w-8 text-slate-400" />
-          </div> */}
         </div>
       </section>
 
@@ -525,7 +522,7 @@ export default function Home() {
             </div>
 
             <div className="bg-slate-900 p-8 rounded-lg border border-slate-800 shadow-lg hover:shadow-cyan-500/5 transition-all duration-300 hover:border-cyan-500/20">
-              <form className="space-y-6">
+              <form action="https://formspree.io/f/xldbzkye" method="POST" className="space-y-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-slate-300">
                     Name
@@ -533,6 +530,7 @@ export default function Home() {
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
                     placeholder="Your name"
                   />
@@ -544,6 +542,7 @@ export default function Home() {
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
                     placeholder="your.email@example.com"
                   />
@@ -554,12 +553,13 @@ export default function Home() {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows={5}
                     className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white resize-none"
                     placeholder="Your message here..."
                   ></textarea>
                 </div>
-                <Button className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
+                <Button type="submit" className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
                   Send Message
                 </Button>
               </form>
