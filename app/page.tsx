@@ -161,6 +161,15 @@ export default function Home() {
             <TabsContent value="all" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <ProjectCard
+                  title="CineVerse"
+                  description="A responsive OTT-style web app showcasing 2025 movies and series with a sleek, streaminginspired UI. It features search, trailers, and detailed info for both released and upcoming titles, offering a smooth planning experience."
+                  tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
+                  imageUrl="image/cineverse_l.png"
+                  demoUrl="https://cineverse-p.netlify.app/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/movieweb-blog.git"
+                  featured={true}
+                />
+                <ProjectCard
                   title="Online Electronic Store"
                   description="A dynamic, secure, and user-friendly e-commerce platform designed for browsing and purchasing a wide range of electronic products with ease and confidence — fully responsive across both desktop and mobile devices."
                   tags={["HTML", "CSS", "JS", "MySQL", "Flask"]}
@@ -176,7 +185,6 @@ export default function Home() {
                   imageUrl="image/cgpa_l.png"
                   demoUrl="https://www.linkedin.com/posts/patel-priyank-945131288_java-programming-engineering-activity-7265681809449885699-zRXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXJSwUBy1pZdakiKqJQHFrTO0xksmyea28"
                   codeUrl="https://github.com/Patel-Priyank-1602/PDEU-3rd-SEM-CGPA-Calculator-.git"
-                  featured={true}
                 />
                 <ProjectCard
                   title="WebSync"
@@ -216,6 +224,15 @@ export default function Home() {
 
             <TabsContent value="web" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <ProjectCard
+                  title="CineVerse"
+                  description="A responsive OTT-style web app showcasing 2025 movies and series with a sleek, streaminginspired UI. It features search, trailers, and detailed info for both released and upcoming titles, offering a smooth planning experience."
+                  tags={["Next.js", "Tailwind", "JS", "TypeScript", "Vercel"]}
+                  imageUrl="image/cineverse_l.png"
+                  demoUrl="https://cineverse-p.netlify.app/"
+                  codeUrl="https://github.com/Patel-Priyank-1602/movieweb-blog.git"
+                  featured={true}
+                />
                 <ProjectCard
                   title="Online Electronic Store"
                   description="A dynamic, secure, and user-friendly e-commerce platform designed for browsing and purchasing a wide range of electronic products with ease and confidence — fully responsive across both desktop and mobile devices."
