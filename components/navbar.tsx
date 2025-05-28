@@ -75,8 +75,8 @@ export default function Navbar() {
                 <Link
                   href={item.href}
                   className={`px-4 py-2 rounded-md transition-colors ${activeSection === item.href.substring(1)
-                      ? "text-white bg-slate-800"
-                      : "text-slate-300 hover:text-white hover:bg-slate-800/50"
+                    ? "text-white bg-slate-800"
+                    : "text-slate-300 hover:text-white hover:bg-slate-800/50"
                     }`}
                 >
                   {item.name}
@@ -87,8 +87,10 @@ export default function Navbar() {
 
           <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
             <Link href="/resume.pdf" download>
-              <Button className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
-                <Download className="mr-2 h-4 w-4" /> Resume
+              <Button
+                className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700"
+              >
+                Resume <Download className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </motion.div>
@@ -127,8 +129,8 @@ export default function Navbar() {
                     <Link
                       href={item.href}
                       className={`block px-4 py-2 rounded-md transition-colors ${activeSection === item.href.substring(1)
-                          ? "text-white bg-slate-800"
-                          : "text-slate-300 hover:text-white hover:bg-slate-800/50"
+                        ? "text-white bg-slate-800"
+                        : "text-slate-300 hover:text-white hover:bg-slate-800/50"
                         }`}
                       onClick={() => setIsMenuOpen(false)}
                     >
