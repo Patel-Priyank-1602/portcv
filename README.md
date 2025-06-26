@@ -36,9 +36,9 @@ This portfolio is built to present:
 
 Let's connect and collaborate:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/patel-priyank-1602)
+- 💼 [LinkedIn](https://www.linkedin.com/in/patel-priyank-945131288/)
 - 💻 [GitHub](https://github.com/Patel-Priyank-1602)
-- 📧 [Email](mailto:patelpriyank1602@gmail.com)
+- 📧 [Email](mailto:patelpriyank2526@gmail.com)
 - 🖼️ [Instagram](https://www.instagram.com/patelpriyank.d/)
 - 🐦 [Twitter](https://x.com/Priyank_P16)
 
