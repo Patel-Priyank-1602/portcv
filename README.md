@@ -26,8 +26,8 @@ This portfolio is built to present:
 
 | Project         | Description                                                                 |
 |-----------------|-----------------------------------------------------------------------------|
-| CineVerse 2025  | A tech and entertainment fusion platform showcasing personalized film info.|
-| CVRecommendation| An AI-powered engine recommending curated movie/series content.            |
+| CineVerse 2025  | Your Movie & Series Planner of 2025.|
+| CVRecommendation| An engine recommending curated movie/series content.            |
 | WebSync         | A website manager for organizing and retrieving bookmarks efficiently.      |
 
 ---
