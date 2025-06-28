@@ -1,4 +1,4 @@
-import type React from "react"
+import * as React from "react"
 import "./globals.css"
 import { Inter } from "next/font/google"
 import Navbar from "@/components/navbar"
@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Priyank",
   description: "Full-Stack Developer & UI/UX Enthusiast",
-   icon: "/fav.png",
+  icon: "/fav.png",
 }
 
 export default function RootLayout({
@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/fav.png" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Navbar />
