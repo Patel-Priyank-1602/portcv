@@ -90,7 +90,7 @@ export default function Navbar() {
               <Button
                 className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700"
               >
-                Resume <Download className="ml-2 h-4 w-4" />
+                Download CV <Download className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </motion.div>
@@ -143,9 +143,11 @@ export default function Navbar() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: navItems.length * 0.1 }}
                 >
-                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
-                    <Download className="mr-2 h-4 w-4" /> Resume
-                  </Button>
+                  <Link href="/resume.pdf" download>
+                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
+                      <Download className="mr-2 h-4 w-4" /> Download CV
+                    </Button>
+                  </Link>
                 </motion.div>
               </nav>
             </div>

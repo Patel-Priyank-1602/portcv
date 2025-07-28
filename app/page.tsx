@@ -53,7 +53,7 @@ export default function Home() {
                   variant="outline"
                   className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-cyan-500/50 transition-all duration-300"
                 >
-                  Download Resume <Download className="ml-2 h-4 w-4" />
+                  Download CV <Download className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
             </div>
