@@ -90,7 +90,7 @@ export default function Navbar() {
               <Button
                 className="hidden md:flex bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700"
               >
-                Download CV <Download className="ml-2 h-4 w-4" />
+                Download Resume <Download className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </motion.div>
@@ -145,7 +145,7 @@ export default function Navbar() {
                 >
                   <Link href="/resume.pdf" download>
                     <Button className="w-full bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700">
-                      <Download className="mr-2 h-4 w-4" /> Download CV
+                      <Download className="mr-2 h-4 w-4" /> Download Resume
                     </Button>
                   </Link>
                 </motion.div>
